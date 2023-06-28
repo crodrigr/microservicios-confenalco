@@ -21,3 +21,14 @@ Aquí hay algunas características clave de los microservicios:
 7. **Mantenibilidad y evolución:** Al dividir la aplicación en servicios más pequeños e independientes, los cambios y actualizaciones en la funcionalidad se pueden realizar de forma más sencilla en servicios individuales, sin afectar a toda la aplicación. Esto facilita el mantenimiento y la evolución de la aplicación a lo largo del tiempo.
 
 En resumen, los microservicios son una arquitectura de software que se basa en dividir una aplicación en servicios pequeños e independientes, lo que permite una mayor flexibilidad, escalabilidad y mantenibilidad. Este enfoque es especialmente útil en entornos empresariales donde se requiere la capacidad de desarrollo, despliegue y evolución ágil de aplicaciones complejas.
+
+## 2. Herramientas
+
+Esta tecnología se puede trabajar en diferentes sistemas operativos: linux o windows. 
+
+- Java jdk 11 o superior
+- Visual studio code (extensiones para trabajar java y spring boot)
+- Git
+- Postman
+
+En este curso la instalación se va realizar en windows
