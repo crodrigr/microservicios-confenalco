@@ -93,7 +93,7 @@ Cuando se aplica la anotación @Transactional a un método o clase, Spring inter
 
 Se definie la clase de tipo controller.Es la que está expuesta a atender al llamado de las peticiones que le hacen al api. La anotación **@RestController**
 
-La anotación @RestController en Spring Boot se utiliza para marcar una clase como un controlador (controller) de API REST. Esta anotación combina las anotaciones @Controller y @ResponseBody, lo que significa que la clase anotada con @RestController es capaz de manejar las solicitudes HTTP y devolver directamente objetos serializados como respuestas en formato JSON o XML.
+La anotación **@RestController** en Spring Boot se utiliza para marcar una clase como un controlador (controller) de API REST. Esta anotación combina las anotaciones **@Controller** y **@ResponseBody**, lo que significa que la clase anotada con **@RestController** es capaz de manejar las solicitudes HTTP y devolver directamente objetos serializados como respuestas en formato JSON o XML.
 
 Al utilizar la anotación @RestController, no es necesario anotar cada método individualmente con @ResponseBody, ya que la anotación @RestController se encarga de eso automáticamente para todos los métodos del controlador.
 
