@@ -60,6 +60,10 @@ Dentro del paqute **repositories** se denfine las interfaces repositories, las c
 
 Estos métodos van actuar sobre la clase entity que se defina, en este caso **Producto** y también se pasa cual es el tipo de dato de la llave primaria de dicha clase, en este caso **Long**. 
 
+**Nota**: esta interfaz al heredar de CrudRepository que es un clase de tipo repository es un tipo de clase bean que el contenedor de spring boot se encarga de gestionar, por lo tanto, permite que se haga inyección de dependencia. 
+
+## 2.1 Interfaz RepositoryProducto
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5c61f5f0-f96e-4d52-99bd-e2bd0a62628d)
 
 
