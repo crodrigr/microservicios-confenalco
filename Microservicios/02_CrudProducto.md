@@ -75,4 +75,9 @@ En la capa de services, es donde se definie la logica del negocio. Son los servi
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/39617c3a-9ba8-473f-ad47-e70682e03e3f)
 
+## 3.2 Clase ProductoServiceImpl
+
+Esta clase es una clase de tipo Servicio por eso tiene la anotación **@Service** dicha anotación hace que esta clase se especial y sea un bean el cual va permitir hacer inyección de dependencia. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7d799bae-6638-4996-acc0-48b64f318d08)
 
