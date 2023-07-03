@@ -4,8 +4,6 @@
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2f8079f1-a291-4d31-b36f-b14b47bce0dd)
 
-
-
 ## Proyecto su paquetes
 
 El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras clases en java
@@ -21,6 +19,12 @@ El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras 
 Para usar la capa de persistencia se debe tener las depencias de **spring data jpa** y la del driver de conexión para el motor de base de datos con el que se va a trabajar, en este caso se va usar **Mysql** por lo tanto colocamos la dependencia correspondiente en el archivo **pom.xml**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a2e99c71-40bc-49fc-b074-109095a31b1d)
+
+## Configuración de la base de datos 
+
+En el archivo **application.propreties** se debe configurar las credenciales de conexión a la base de datos, en este caso nuestra base de datos en mysql se llama **db_microservice_producto** la cual, debe estar creada previamente. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc5c4ef0-761e-4348-8075-e0228b458d5c)
 
 
 # 1 Entities
