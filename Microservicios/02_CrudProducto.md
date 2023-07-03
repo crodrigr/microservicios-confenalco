@@ -24,7 +24,15 @@ Para usar la capa de persistencia se debe tener las depencias de **spring data j
 
 En el archivo **application.propreties** se debe configurar las credenciales de conexión a la base de datos, en este caso nuestra base de datos en mysql se llama **db_microservice_producto** la cual, debe estar creada previamente. 
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc5c4ef0-761e-4348-8075-e0228b458d5c)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/aa24bb36-5a34-44c6-ad9a-b948debfb944)
+
+
+## import.sql
+
+Se crea un archivo dentro de resources **import.sql** para que tome los insert que van a poblar la tabla productos
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3c48c2e5-d2b6-4982-bf13-e66bdbb09aa8)
+
 
 
 # 1 Entities
