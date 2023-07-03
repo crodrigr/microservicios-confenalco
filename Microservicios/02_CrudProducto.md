@@ -112,5 +112,6 @@ Al utilizar la anotación @RestController, no es necesario anotar cada método i
 
 Se hace la inyección de dependencia de **ProductoService** el cual retorna el listado de productos
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d5e37f72-c748-45ce-8da3-2332b32d6844)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a77973e7-d902-4b7b-870a-0b30d2d3abb9)
+
 
