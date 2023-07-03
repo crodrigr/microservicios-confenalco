@@ -23,6 +23,6 @@ Esta clase tiene la anotación Entity, la cual, marca la clase de tipo entidad q
 - @Table: configuración que debe tomar la clase entity en relación a la tabla de base datos
 - @Id: definie el atributo que va hacer la llave primaria en la tabla de la base de datos
 
-(Documentanción - Definición JPA Entity)[https://www.baeldung.com/jpa-entities]
+(https://www.baeldung.com/jpa-entities)[Documentanción - Definición JPA Entity]
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc569369-b836-44d2-b4cd-6c7c62b094fb)
