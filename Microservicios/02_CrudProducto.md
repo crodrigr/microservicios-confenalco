@@ -71,6 +71,8 @@ Estos métodos van actuar sobre la clase entity que se defina, en este caso **Pr
 En la capa de services, es donde se definie la logica del negocio. Son los servicios que van ha ser consumidos por los controladores. Se define una interfaz con los servicio, en este caso **ProductoService** y dentro del paquete **impl** se define la clase **ProductoServiceImpl**, dicha clase va la definición de los métodos de clarados en la interfaz **ProductoService**
 
 
+## 3.1 Interfaz ProductoService
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/39617c3a-9ba8-473f-ad47-e70682e03e3f)
 
 
