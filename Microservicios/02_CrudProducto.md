@@ -51,3 +51,15 @@ En Java, la interfaz Serializable se utiliza para marcar una clase y permitir qu
 
 # 2. Repository
 
+Dentro del paqute **repositories** se denfine las interfaces repositories, las cuales, van ha heredar de la clase **CrudReposotory** todos los métodos básicos del crud:
+
+- findAll
+- save
+- findById
+- Delete
+
+Estos métodos van actuar sobre la clase entity que se defina, en este caso **Producto** y también se pasa cual es el tipo de dato de la llave primaria de dicha clase, en este caso **Long**. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5c61f5f0-f96e-4d52-99bd-e2bd0a62628d)
+
+
