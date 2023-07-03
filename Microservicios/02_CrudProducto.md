@@ -98,5 +98,8 @@ La anotación @RestController en Spring Boot se utiliza para marcar una clase co
 Al utilizar la anotación @RestController, no es necesario anotar cada método individualmente con @ResponseBody, ya que la anotación @RestController se encarga de eso automáticamente para todos los métodos del controlador.
 
 ## 4.1 La clase ProductoController
+
+Se hace la inyección de dependencia de **ProductoService** el cual retorna el listado de productos
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d5e37f72-c748-45ce-8da3-2332b32d6844)
 
