@@ -16,6 +16,13 @@ El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/8d0f7a42-debb-41c3-b46a-0efdfa6aa217)
 
+## Dependencia
+
+Para usar la capa de persistencia se debe tener las depencias de **spring data jpa** y la del driver de conexión para el motor de base de datos con el que se va a trabajar, en este caso se va usar **Mysql** por lo tanto colocamos la dependencia correspondiente en el archivo **pom.xml**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a2e99c71-40bc-49fc-b074-109095a31b1d)
+
+
 # 1 Entities
 
 ## 1.1 Clase entity de producto
