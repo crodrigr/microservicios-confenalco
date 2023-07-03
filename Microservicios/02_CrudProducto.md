@@ -1,11 +1,12 @@
 # Crud de Producto
 
-## 1. Diseño paquetes proyecto producto
+## Diseño paquetes proyecto producto
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2f8079f1-a291-4d31-b36f-b14b47bce0dd)
 
 
-## 2. Proyecto su paquetes
+
+## Proyecto su paquetes
 
 El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras clases en java
 
@@ -15,7 +16,9 @@ El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/8d0f7a42-debb-41c3-b46a-0efdfa6aa217)
 
-## 3. Clase entity de producto
+# 1 Entities
+
+## 1.1 Clase entity de producto
 
 Esta clase tiene la anotación Entity, la cual, marca la clase de tipo entidad que se va ha mapear con base de datos. Estas son algunas anotaciones:
 
