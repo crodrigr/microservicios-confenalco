@@ -66,4 +66,11 @@ Estos métodos van actuar sobre la clase entity que se defina, en este caso **Pr
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5c61f5f0-f96e-4d52-99bd-e2bd0a62628d)
 
+# 3. Services
+
+En la capa de services, es donde se definie la logica del negocio. Son los servicios que van ha ser consumidos por los controladores. Se define una interfaz de los servicio, en este caso **ProductoService** y dentro del paqute **impl** se define la clase **ProductoServiceImpl**, dicha clase va la definición de los métodos de clarados en la interfaz **ProductoService**
+
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/39617c3a-9ba8-473f-ad47-e70682e03e3f)
+
 
