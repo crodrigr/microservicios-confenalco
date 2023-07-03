@@ -62,7 +62,7 @@ Estos métodos van actuar sobre la clase entity que se defina, en este caso **Pr
 
 **Nota**: esta interfaz al heredar de CrudRepository que es un clase de tipo repository es un tipo de clase bean que el contenedor de spring boot se encarga de gestionar, por lo tanto, permite que se haga inyección de dependencia. 
 
-[Documentación spring jpa repsotory](https://www.baeldung.com/spring-data-read-only-repository)
+[Documentación spring jpa repository](https://www.baeldung.com/spring-data-read-only-repository)
 
 ## 2.1 Interfaz RepositoryProducto
 
