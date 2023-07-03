@@ -89,3 +89,7 @@ Cuando se aplica la anotación @Transactional a un método o clase, Spring inter
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7d799bae-6638-4996-acc0-48b64f318d08)
 
+# 4. Controller
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d5e37f72-c748-45ce-8da3-2332b32d6844)
+
