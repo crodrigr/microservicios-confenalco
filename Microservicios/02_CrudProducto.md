@@ -27,4 +27,11 @@ Esta clase tiene la anotación Entity, la cual, marca la clase de tipo entidad q
 [Documentación - Definición JPA Entity](https://www.baeldung.com/jpa-entities)
 
 
+En esta clase Producto se define los siguientes atributos. Son private por que se aplica **encapsulamiento**
+
+- private Long id
+- private String nombre
+- private String codigo
+- private String descripcion
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc569369-b836-44d2-b4cd-6c7c62b094fb)
