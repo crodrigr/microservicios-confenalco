@@ -35,3 +35,8 @@ En esta clase Producto se define los siguientes atributos. Son private por que s
 - private String descripcion
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc569369-b836-44d2-b4cd-6c7c62b094fb)
+
+Continuación con los métodos getter and setter
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/dc362e79-7d37-433f-b233-45b5b6dc5a4e)
+
