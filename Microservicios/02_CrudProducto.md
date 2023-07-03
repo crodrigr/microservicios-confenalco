@@ -17,4 +17,12 @@ El proyecto de productos debe tener tres paquetes donde se van agrupar nuestras 
 
 ## 3. Clase entity de producto
 
+Esta clase tiene la anotación Entity, la cual, marca la clase de tipo entidad que se va ha mapear con base de datos. Estas son algunas anotaciones:
+
+- @Entity: define la clase de tipo entitie
+- @Table: configuración que debe tomar la clase entity en relación a la tabla de base datos
+- @Id: definie el atributo que va hacer la llave primaria en la tabla de la base de datos
+
+(Documentanción - Definición JPA Entity)[https://www.baeldung.com/jpa-entities]
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bc569369-b836-44d2-b4cd-6c7c62b094fb)
