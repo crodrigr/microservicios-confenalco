@@ -79,5 +79,7 @@ En la capa de services, es donde se definie la logica del negocio. Son los servi
 
 Esta clase es una clase de tipo Servicio por eso tiene la anotación **@Service** dicha anotación hace que esta clase se especial y sea un bean el cual va permitir hacer inyección de dependencia. 
 
+Por otra parte, hace la inyección de dependencia de **RepositoryProducto**, que proporciona los métodos que van interactuar con la base de datos. 
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7d799bae-6638-4996-acc0-48b64f318d08)
 
