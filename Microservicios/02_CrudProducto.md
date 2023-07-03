@@ -29,6 +29,7 @@ Esta clase tiene la anotación Entity, la cual, marca la clase de tipo entidad q
 
 [Documentación - Definición JPA Entity](https://www.baeldung.com/jpa-entities)
 
+Esta clase se crea dentro del paquete **entities** dentro del paquete **repositories**
 
 En esta clase Producto se define los siguientes atributos. Son private por que se aplica **encapsulamiento**
 
@@ -46,4 +47,6 @@ Continuación con los métodos getter and setter
 Las clases entity deben implementar la insterface Serailizable:
 
 En Java, la interfaz Serializable se utiliza para marcar una clase y permitir que sus objetos sean convertidos en una secuencia de bytes. Esto facilita la serialización de objetos, lo que significa que se pueden almacenar en archivos, enviar a través de redes o guardar en bases de datos.
+
+# 2. Repository
 
