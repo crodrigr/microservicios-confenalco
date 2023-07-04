@@ -123,5 +123,12 @@ Se hace la inyección de dependencia de **ProductoService** el cual retorna el l
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1b19a711-b7f9-40d0-9665-ce61b6e97318)
 
 
+# 5. Configuración del microservicio 
+
+Al proyecto se debe nombrar, el cual, se va identificar con los otros microservicios y el puerto desigando va ser el 8001
+
+## 5.1 Configuración properties del proyecto 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/acc09d5a-3b1b-4985-8a04-dc2d31e1e306)
 
 
