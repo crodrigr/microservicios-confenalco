@@ -14,5 +14,13 @@ El balanceo se puede hacer por medio de Ribbon. No es necesario de instalar ning
 
 Creamos el proyecto con la siguente parametriaciones
 
+## 2.1 spring initializra
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/21d8c983-ea77-4890-92a0-60c3b5c7fae5)
+
+# 3. Estructura del proyecto
+
+El proyecto va tener los siguiente paquetes principales: controller, services y models.  En este proyecto no se va ha tener clase de tipo entidad que se mape con la base de datos, la clase item no se va persistir, pero se relaciona con producto, dicha clase se persiste en el microservicio-producto. 
+
+## 3.1 Paquetes proyecto
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/532b719e-c89a-414d-bbe4-ef7f80bdd88c)
 
