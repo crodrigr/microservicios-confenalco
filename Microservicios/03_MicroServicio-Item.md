@@ -61,7 +61,7 @@ Se crea el controlador de Item con los dos servicios: listar y detalle
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/b8a569fd-86b4-44d9-adaa-ff780f7fc190)
 
-## 8. Configuración de propiedades del proyecto
+# 8. Configuración de propiedades del proyecto
 
 Todo microservicio debe tener su nombre que lo identifique. 
 
