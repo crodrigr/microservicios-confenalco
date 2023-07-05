@@ -24,3 +24,10 @@ El proyecto va tener los siguiente paquetes principales: controller, services y 
 ## 3.1 Paquetes proyecto
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/532b719e-c89a-414d-bbe4-ef7f80bdd88c)
 
+# 4. Clase model de Producto
+
+Esta clase se relaciona con item, por que un item va tener un producto, y está se persiste en el microservicio-producto, en este componente solo se define como una clase de tipo model, es decir, que solo se utiliza en memoria. 
+
+## 4.1 Producto.java
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ed2ff68d-be09-4c62-b804-4d83441eb9a6)
+
