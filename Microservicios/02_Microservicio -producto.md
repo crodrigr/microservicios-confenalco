@@ -131,4 +131,11 @@ Al proyecto se debe nombrar, el cual, se va identificar con los otros microservi
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/acc09d5a-3b1b-4985-8a04-dc2d31e1e306)
 
+# 6. Ajuste al proyecto. 
+
+## 6.1 Agregar el campo precio en Producto
+
+También se deben agregar los métodos get y set para el atributo **precio**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/82135be5-148a-4ca2-a3ac-ecb1b1de31e9)
 
