@@ -139,3 +139,7 @@ También se deben agregar los métodos get y set para el atributo **precio**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/82135be5-148a-4ca2-a3ac-ecb1b1de31e9)
 
+## 6.2 Ajustar el import.sql con el nuevo campo
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/48a8cf56-54ac-4377-ac9a-a29430b41b10)
+
