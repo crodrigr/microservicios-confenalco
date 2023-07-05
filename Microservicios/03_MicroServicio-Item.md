@@ -42,3 +42,15 @@ Para que un microservicio comsuma los servicios de otro se puede hacer de dos fo
 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a4ea8565-bb85-481c-955c-ea3bdb09b307)
+
+# 6. Se crea los servicios
+
+## 6.1 ItemService.java
+
+Esta clase vamos a tener dos métodos: listar y detalle.  Listar trae la lista de listado de items y ver detalle trae un item en particular
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/33e2a0d9-2f9b-453f-878b-d589679b4216)
+
+## 6.3 ItemServiceImpl.java
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/aa0e930a-028b-4d41-830e-4a596ae8e52f)
