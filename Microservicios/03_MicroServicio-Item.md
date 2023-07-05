@@ -36,3 +36,9 @@ La clase item no se va persistir, sus atributos son: producto y cantidad. Este l
 ## 4.2 Item.java
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/f0a6f555-b7f2-467e-b969-b9d55c8f8ca1)
 
+# 5. Crear un RestTemplate
+
+Para que un microservicio comsuma los servicios de otro se puede hacer de dos formas: **1. ResTemplate** y **2.Feing**. Hacer lo con **RestTemplate** se debe crear un Bean **RestTemplate** se va hacer a través de de un método por eso se crea una clase **AppCofigure** con la anotación **@Configuration** el cual, va permitir tener métodos con la anotación **@Bean** para hacer inyección de dependencia. 
+
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a4ea8565-bb85-481c-955c-ea3bdb09b307)
