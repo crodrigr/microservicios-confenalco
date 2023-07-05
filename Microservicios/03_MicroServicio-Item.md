@@ -10,7 +10,7 @@ El balanceo se puede hacer por medio de Ribbon. No es necesario de instalar ning
 ![image](https://user-images.githubusercontent.com/31961588/236026238-fd8cb039-06c3-4080-b75c-e18ddc9fbdae.png)
 
 
-# 2. Crear el microservicio Item
+# 2. Crear el microservicio Items
 
 Creamos el proyecto con la siguente parametriaciones
 
