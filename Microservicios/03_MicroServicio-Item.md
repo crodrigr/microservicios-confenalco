@@ -97,7 +97,7 @@ Dentro el proyecto se crea un directorio **clientes**, en dicho directorio van a
 
 ## 9.5 Definición de implementacion de feing
 
-En esta clase se hace la implementación de feing, implmenta la interfaz **ItemService**. Ahora el **ItemController** tiene dos implementaciones de la interfaz **ItemService**, y cual debería usar. Para esto se usa el **@Primary** que indica que ser var usar **ItemServiceFeing** por defecto. 
+En esta clase se hace la implementación de feing, implementa la interfaz **ItemService**. Ahora el **ItemController** tiene dos implementaciones de la interfaz **ItemService**, y cual debería usar. Para esto se usa el **@Primary** que indica que ser var usar **ItemServiceFeing** por defecto. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/557d08e3-55e4-47db-a07b-896b47ca8dd8)
 
