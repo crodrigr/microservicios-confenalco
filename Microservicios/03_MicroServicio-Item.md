@@ -137,3 +137,6 @@ Nuestro proyecto esta configurado en el **aplication.properties** para que el pu
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1f01a6bc-fff3-42f9-8420-c41f67d408ff)
 
+**Iniciando con el puerto 9001**
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/529884d1-9acb-4099-b992-d63c14ce2bfa)
+
