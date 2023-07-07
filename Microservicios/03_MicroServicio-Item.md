@@ -159,3 +159,14 @@ Se debe agregar un atributo en producto puerto de tipo **@Transient** para no gu
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/895579f3-d46f-4620-acfe-6d10a9c42449)
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/da4d3f71-350b-4f41-9495-22ea55538e2f)
+
+### 10.7.4 Se prueba en postam
+
+Se inicia dos instancias de servici-productos con los puertos: 8001 y 9001 y se sube una instancia de servicio-items. Se aplica el balanceo con ribbon. }
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/632f93f3-7de8-48a6-b18d-250544f393bf)
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4f737a33-350e-47c1-8e6e-ab542d1d9606)
+
+
+
