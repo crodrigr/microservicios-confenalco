@@ -140,3 +140,9 @@ Nuestro proyecto esta configurado en el **aplication.properties** para que el pu
 **Iniciando con el puerto 9001**
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/529884d1-9acb-4099-b992-d63c14ce2bfa)
 
+## 10.7 Verificar el balanceo por el puerto que resonde
+
+Se debe agregar un atributo en producto puerto de tipo **@Transient** para no guardar en la base de datos
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/06f53e7f-7a37-4413-ae6b-02150bf5d734)
+
