@@ -107,7 +107,7 @@ En esta clase se hace la implementación de feing, implementa la interfaz **Item
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/12a4359d-67cb-4ee4-a3fd-f840c3545ddb)
 
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fac159d9-0fbc-4df8-bf00-fbf2d77beedd)
+
 
 ## 10.1 Ajustar las dependencias
 
