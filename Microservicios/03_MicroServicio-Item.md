@@ -109,4 +109,16 @@ En esta clase se hace la implementación de feing, implementa la interfaz **Item
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fac159d9-0fbc-4df8-bf00-fbf2d77beedd)
 
+## 10.1 Ajustar las dependencias
+
+Rebbion funciona hasta la version 2.3.12
+
+#### 10.2 ajustar version spring y java
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5b12f4e2-7868-4de0-a423-f99b5a360c37)
+
+#### 10.3 agregar la dependencia ribbon
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e6766955-84a2-445e-999b-e9735017db32)
+
+
+
 
