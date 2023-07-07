@@ -67,7 +67,21 @@ Todo microservicio debe tener su nombre que lo identifique.
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7b58c11e-1f90-4f57-a425-e6e95914917d)
 
-# 9. Balanceo de carga con ribbon
+
+# 9. Implementación con feing
+
+## 9.1 Agregar la depedencia de openFeing al proyecto
+
+Se debe seleccionar a través del add startes la dependencia **openFeing** la cual agrega dos dependencias en el **pom.xml**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a111784e-12d7-4f4a-9c6b-10c037baf16f)
+
+## 9.2 Depedencias en pom.xml
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/10149177-6148-4892-8179-1601ff6178d5)
+
+
+# 10. Balanceo de carga con ribbon
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/12a4359d-67cb-4ee4-a3fd-f840c3545ddb)
 
