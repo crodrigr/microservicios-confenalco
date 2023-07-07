@@ -142,7 +142,20 @@ Nuestro proyecto esta configurado en el **aplication.properties** para que el pu
 
 ## 10.7 Verificar el balanceo por el puerto que resonde
 
-Se debe agregar un atributo en producto puerto de tipo **@Transient** para no guardar en la base de datos
+Se debe agregar un atributo en producto puerto de tipo **@Transient** para no guardar en la base de datos. En ***servicio-producto Producto.java**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/06f53e7f-7a37-4413-ae6b-02150bf5d734)
 
+### 10.7.1 Se ajusta el ProductoController.java
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/60a51f0b-92d6-4ac4-8943-89c7535a3bcf)
+
+### 10.7.2 Se agrega atributo por en servcio-items en Producto.java
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/58b4a1b2-2947-44bb-a2b2-5e4491ac6e83)
+
+### 10.7.3 En serivico-items en ProductoClienteRest.java
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/895579f3-d46f-4620-acfe-6d10a9c42449)
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/da4d3f71-350b-4f41-9495-22ea55538e2f)
