@@ -93,7 +93,7 @@ Dentro el proyecto se crea un directorio **clientes**, en dicho directorio van a
 - **/listar**
 - **/ver/{id}**
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bea762e3-442e-4239-896a-7138530f9443)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4d964d24-6859-4abf-a6cc-50df5f968021)
 
 
 # 10. Balanceo de carga con ribbon
