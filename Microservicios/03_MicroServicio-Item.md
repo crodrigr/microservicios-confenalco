@@ -86,6 +86,15 @@ Se debe activar en el proyecto el feing para que se pueda utilizar. Esto se hace
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/33302543-365b-425f-8cd6-d5ae34949ca1)
 
+## 9.4 Se crea la interfaz de feing
+
+Dentro el proyecto se crea un directorio **clientes**, en dicho directorio van a ir todas la interfazces de feing que van a consumir servicios de otros componentes. En este caso se define para el proyecto **servicio-productos** y tenemos los dos llamados a los endpoints de productos: 
+
+- **/listar**
+- **/ver/{id}**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/bea762e3-442e-4239-896a-7138530f9443)
+
 
 # 10. Balanceo de carga con ribbon
 
