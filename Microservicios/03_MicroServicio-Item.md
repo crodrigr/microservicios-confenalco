@@ -113,22 +113,27 @@ En esta clase se hace la implementación de feing, implementa la interfaz **Item
 
 Rebbion funciona hasta la version 2.3.12
 
-#### 10.2 Ajustar version spring y java
+## 10.2 Ajustar version spring y java
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5b12f4e2-7868-4de0-a423-f99b5a360c37)
 
-#### 10.3 agregar la dependencia ribbon
+## 10.3 agregar la dependencia ribbon
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e6766955-84a2-445e-999b-e9735017db32)
 
-#### 10.4 Configuración de application.properties
+## 10.4 Configuración de application.properties
 
 Se agrega la configuración para items pueda enviar a las instancias de productos. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a4ce0825-f034-4328-a8e4-a6a4979e92cb)
 
-#### 10.5 ItemApplication se activa ribbon
+## 10.5 ItemApplication se activa ribbon
 
 En este caso es un solo serivicio que desde Item consume, en este caso, productos. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9ed5793c-f415-4c2c-9cdf-7e17b05aea49)
 
+## 11.6 Iniciamos dos instancias servicio-productos
+
+Nuestro proyecto esta configurado en el **aplication.properties** para que el puerto por defecto sea el **8001**. Como se hace para iniciar otra instancia del proyecto servicio-productos con el puerto **9001** que es el otro puerto configurado para usar ribbon. Para esto lo hacemos ejecutando el **.jar** del proyecto y pasando como variable **-Dserver.port=9001** de esta forma el va iniciar con este puerto. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1f01a6bc-fff3-42f9-8420-c41f67d408ff)
 
