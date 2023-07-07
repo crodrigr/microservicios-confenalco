@@ -66,3 +66,12 @@ Se crea el controlador de Item con los dos servicios: listar y detalle
 Todo microservicio debe tener su nombre que lo identifique. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7b58c11e-1f90-4f57-a425-e6e95914917d)
+
+# 9. Balanceo de carga con ribbon
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/12a4359d-67cb-4ee4-a3fd-f840c3545ddb)
+
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fac159d9-0fbc-4df8-bf00-fbf2d77beedd)
+
+
