@@ -80,6 +80,12 @@ Se debe seleccionar a través del add startes la dependencia **openFeing** la cu
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/10149177-6148-4892-8179-1601ff6178d5)
 
+## 9.3 EnableFeing en el aplicaction
+
+Se debe activar en el proyecto el feing para que se pueda utilizar. Esto se hace en la clase principal de proyecto la **Application**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/33302543-365b-425f-8cd6-d5ae34949ca1)
+
 
 # 10. Balanceo de carga con ribbon
 
