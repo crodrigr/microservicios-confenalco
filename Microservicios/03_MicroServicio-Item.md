@@ -125,7 +125,7 @@ Se agrega la configuración para items pueda enviar a las instancias de producto
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a4ce0825-f034-4328-a8e4-a6a4979e92cb)
 
-### 10.5 ItemApplication se activa ribbon
+#### 10.5 ItemApplication se activa ribbon
 
 En este caso es un solo serivicio que desde Item consume, en este caso, productos. 
 
