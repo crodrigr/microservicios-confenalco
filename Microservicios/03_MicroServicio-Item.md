@@ -113,12 +113,17 @@ En esta clase se hace la implementación de feing, implementa la interfaz **Item
 
 Rebbion funciona hasta la version 2.3.12
 
-#### 10.2 ajustar version spring y java
+#### 10.2 Ajustar version spring y java
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5b12f4e2-7868-4de0-a423-f99b5a360c37)
 
 #### 10.3 agregar la dependencia ribbon
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e6766955-84a2-445e-999b-e9735017db32)
 
+#### 10.4 Configuración de application.properties
+
+Se agrega la configuración para items pueda enviar a las instancias de productos. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a4ce0825-f034-4328-a8e4-a6a4979e92cb)
 
 
 
