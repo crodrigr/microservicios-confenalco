@@ -189,3 +189,9 @@ Se debe colocar la anotación **@LoadBalanced** en AppConfigure en el método **
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4fa50dbe-99d2-48e2-90c9-febcee33cff5)
 
+### 10.8.3 Ajustar el ItemController para consumir el RestTemplate
+
+En el **@Qualifier** colocar **serviceRestTemplate** para que consuma la implementación de RestTempleate. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cd72ccba-bdb8-47a4-b81d-80838648664d)
+
