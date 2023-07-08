@@ -183,4 +183,9 @@ Se debe cambiar el **localhos:8001** por **servicio-productos** para que no qued
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1da24c20-69a1-45e6-864c-cfbb34480861)
 
+### 10.8.2 Activa el loadbalancer en AppConfiguration
+
+Se debe colocar la anotación **@LoadBalanced** en AppConfigure en el método **registrarRestTempleate**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4fa50dbe-99d2-48e2-90c9-febcee33cff5)
 
