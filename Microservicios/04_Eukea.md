@@ -54,3 +54,19 @@ Esta arriba el servidor de eureka. Ahora configurar los clientes de eureka.
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/56c4d1e7-74f8-4652-8ad4-a882169d2940)
 
+# 8. En servicio-items desactivamos ribbon
+
+Se quita la anotación **@RibbonClient(name = "servicio-productos")**
+
+
+- pom.xml:
+    -  cambiar la version spring
+    -  quitar la dependencia ribbon
+    -  colcoar la version de spring-cloud
+    -  ItemApplicacion quitar rebbion
+    -  AppConfiguracion quitar balanceloar
+    -  application.properties quitar la lista de instancias de servicio-productos
+    -  en cliente ProductoClienteRest color la url para que no genere error. 
+   
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c30d57e9-53ce-422d-8de0-f7828f6e572f)
