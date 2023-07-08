@@ -44,3 +44,6 @@ Si estamos usando un jdk superior a 11 se debe adicionar esta dependencia
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3ab39e1d-b6dd-4eb0-9cf3-5f6e2325a777)
 
+# 5. Activamos el Eureka Server
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4ae7933a-e40a-4ae4-9197-b6aabe47c0ca)
