@@ -63,10 +63,10 @@ Se quita la anotación **@RibbonClient(name = "servicio-productos")**
     -  cambiar la version spring
     -  quitar la dependencia ribbon
     -  colcoar la version de spring-cloud
-    -  ItemApplicacion quitar rebbion
-    -  AppConfiguracion quitar balanceloar
-    -  application.properties quitar la lista de instancias de servicio-productos
-    -  en cliente ProductoClienteRest color la url para que no genere error. 
+-  ItemApplicacion quitar rebbion
+-  AppConfiguracion quitar balanceloar
+-  application.properties quitar la lista de instancias de servicio-productos
+-  en cliente ProductoClienteRest color la url para que no genere error. 
    
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c30d57e9-53ce-422d-8de0-f7828f6e572f)
