@@ -47,3 +47,10 @@ Si estamos usando un jdk superior a 11 se debe adicionar esta dependencia
 # 5. Activamos el Eureka Server
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4ae7933a-e40a-4ae4-9197-b6aabe47c0ca)
+
+# 7. Vamos a http://localhost:8761
+
+Esta arriba el servidor de eureka. Ahora configurar los clientes de eureka.
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/56c4d1e7-74f8-4652-8ad4-a882169d2940)
+
