@@ -15,3 +15,13 @@ Las características principales de Spring Eureka son:
 La integración de **Spring Eureka** en una aplicación Spring Boot es bastante sencilla. Solo se necesita agregar las dependencias necesarias, configurar el servidor de registro o el cliente de descubrimiento en el archivo de configuración y anotar los servicios adecuados con las anotaciones proporcionadas por Spring Cloud.
 
 Al utilizar Spring Eureka, se facilita la construcción de arquitecturas de microservicios escalables y flexibles. Permite la implementación dinámica de nuevos servicios, el equilibrio de carga entre las instancias y el descubrimiento automático de servicios, lo que simplifica la administración y el despliegue de aplicaciones distribuidas basadas en microservicios.
+
+# 1 Crear el proyecto eureka
+
+Se crea el proyecto de Eureka con las siguiente configuración
+
+## 1.1 Configuración proyecto
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/36185a55-10f4-4e75-a855-ec88bc3d8c12)
+
+## 1.2 Estructura del proyecto
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c86058db-0607-4c68-87c3-ba9bd5feed36)
