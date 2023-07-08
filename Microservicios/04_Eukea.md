@@ -27,3 +27,10 @@ Se crea el proyecto de Eureka con las siguiente configuración
 
 ## 1.2 Estructura del proyecto
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c86058db-0607-4c68-87c3-ba9bd5feed36)
+
+# 2 Depenencias
+
+Se observa que en el pom.xml que se tiene la depenencia de eureka server
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/71aeaabb-8c58-41bd-9828-fd06bea904ac)
+
