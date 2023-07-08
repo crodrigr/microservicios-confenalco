@@ -179,7 +179,7 @@ Se inicia dos instancias de servici-productos con los puertos: 8001 y 9001 y se 
 
 ### 10.8.1 Ajuste en ItemServiceImpl 
 
-Se debe cambiar el **localhos:8001** por **servicio-productos** para que no quede en duro siempre apuntando a puerto 8001, ya que tenemos otra instancia por el puerto 9001.
+Se debe cambiar el **localhos:8001** por **servicio-productos** para que no quede en duro siempre apuntando a puerto 8001, ya que tenemos otras instancia por el puerto 9001.
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1da24c20-69a1-45e6-864c-cfbb34480861)
 
