@@ -21,7 +21,9 @@ Al utilizar Spring Eureka, se facilita la construcción de arquitecturas de micr
 Se crea el proyecto de Eureka con las siguiente configuración
 
 ## 1.1 Configuración proyecto
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/36185a55-10f4-4e75-a855-ec88bc3d8c12)
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a2176c11-503d-46d9-b7a1-aae09ff6d382)
+
 
 ## 1.2 Estructura del proyecto
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c86058db-0607-4c68-87c3-ba9bd5feed36)
