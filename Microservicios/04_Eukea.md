@@ -37,3 +37,10 @@ Se observa que en el pom.xml que se tiene la depenencia de eureka server
 # 3. Configuración del application.properties
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ff969e8a-74f1-4b6c-af05-86af471cdc52)
+
+# 4. dependencia para jdk 11 o superior.
+
+Si estamos usando un jdk superior a 11 se debe adicionar esta dependencia
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3ab39e1d-b6dd-4eb0-9cf3-5f6e2325a777)
+
