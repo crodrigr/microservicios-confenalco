@@ -131,7 +131,14 @@ En este caso es un solo serivicio que desde Item consume, en este caso, producto
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9ed5793c-f415-4c2c-9cdf-7e17b05aea49)
 
-## 11.6 Iniciamos dos instancias servicio-productos
+## 10.5.1 Balanceo ribbon con feing
+
+En este ejemplo se va aplicar el balanceo de carga con ribbon con feing, por que nuestro controlador de **ItemController** está usando la implementación de **Feing**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ded79556-5dc1-4be1-8a51-cb6f5b33b0b0)
+
+
+## 10.6 Iniciamos dos instancias servicio-productos
 
 Nuestro proyecto esta configurado en el **aplication.properties** para que el puerto por defecto sea el **8001**. Como se hace para iniciar otra instancia del proyecto servicio-productos con el puerto **9001** que es el otro puerto configurado para usar ribbon. Para esto lo hacemos ejecutando el **.jar** del proyecto y pasando como variable **-Dserver.port=9001** de esta forma el va iniciar con este puerto. 
 
