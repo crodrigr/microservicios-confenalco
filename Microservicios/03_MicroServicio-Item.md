@@ -55,7 +55,7 @@ Esta clase vamos a tener dos métodos: listar y detalle.  Listar trae la lista d
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/aa0e930a-028b-4d41-830e-4a596ae8e52f)
 
-## 7. ItemController.java
+# 7. ItemController.java
 
 Se crea el controlador de Item con los dos servicios: listar y detalle
 
