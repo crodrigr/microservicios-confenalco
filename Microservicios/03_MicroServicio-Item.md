@@ -193,5 +193,4 @@ Se debe colocar la anotación **@LoadBalanced** en AppConfigure en el método **
 
 En el **@Qualifier** colocar **serviceRestTemplate** para que consuma la implementación de RestTempleate. 
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cd72ccba-bdb8-47a4-b81d-80838648664d)
-
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/15f89592-237a-44f2-afc8-5e0535149417)
