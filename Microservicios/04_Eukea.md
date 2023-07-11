@@ -70,3 +70,10 @@ Se quita la anotación **@RibbonClient(name = "servicio-productos")**
    
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c30d57e9-53ce-422d-8de0-f7828f6e572f)
+
+# 9 Configura Eureka cliente Items
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/db57bc4e-acfe-4077-8b71-bbf159957747)
+
+
+
