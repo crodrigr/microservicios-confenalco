@@ -97,16 +97,16 @@ En el **ItemApplicaction** se coloca la anotación **@EnableEurekaClient** para 
 
 Se configura el proyecto **servicio-productos** para que se cliente de eureka. 
 
-**Se Add Starte Eureka Cliente**
+### 10.1 Se Add Starte Eureka Cliente
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fd11368a-db32-4548-9638-42acc2e94af2)
 
-**La dependencia de Eureka Cliente en el pom.xml
+### 10.2 La dependencia de Eureka Cliente en el pom.xml
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/939d256b-96e3-4e0b-abb5-2179eaecb833)
 
-**Se configura el properties.application***
+### 10.3 Se configura el properties.application
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5a92234d-c228-4383-afb8-4cc963d99d48)
 
-**Se activa eureka cliente en el proyecto**
+### 10.4 Se activa eureka cliente en el proyecto**
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/4d390674-9167-4fe5-8708-a60d814af5f2)
 
 
