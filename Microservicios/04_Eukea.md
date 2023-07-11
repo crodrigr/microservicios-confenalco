@@ -111,10 +111,14 @@ Se configura el proyecto **servicio-productos** para que se cliente de eureka.
 
 
 
-### 10.4 Se activa eureka cliente en el proyecto**
+### 10.4 Se activa eureka cliente en el proyecto
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/df4c9e86-4261-4a60-8bed-38a3c12c3bf5)
 
+
+## 11 Eureka up
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ca58cd11-1738-44c9-afe4-7292a0c872e2)
 
 
 
