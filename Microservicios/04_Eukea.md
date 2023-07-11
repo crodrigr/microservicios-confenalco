@@ -73,7 +73,18 @@ Se quita la anotación **@RibbonClient(name = "servicio-productos")**
 
 # 9 Configura Eureka cliente Items
 
+En el proyecto servicio-items se agrega la dependencia de **eureka client**. Se agrega con el **Add Starte** y se adiciona en el **pom.xml**
+
+## 9.1 Add startes
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/db57bc4e-acfe-4077-8b71-bbf159957747)
 
+**Depedencia pom.xml**
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/64052499-c405-49dc-a44f-d5192ad042c1)
+
+## 9.2 Configuración applicaction.properties
+
+En el archivo de **aplicaction.properties** se configura el proyecto **servicio-items** para que se registre en el **eureka-server** como un cliente
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c79e083e-3d79-4e86-b61f-4b8dc558cbce)
 
 
