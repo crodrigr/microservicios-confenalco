@@ -67,3 +67,7 @@ Se debe cambiar el import del #1 al #2 para que apunte al producto del commons y
 Como el proyecto servicio-producto la estructura de paquetes es diferente al commons y esta por fuera de la estructura base, entonces no va encontrar el paquete, por eso se usa la anotación @EntityScan con el path de paquetes donde están la clase **Producto.java** en **producto-commons**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9fe0338e-b309-4c37-bfee-3fabff5d2ee4)
+
+### 6.5 servicio-item
+
+En este componente se debe realizar los mismo ajustes desde **6.1** que es importa el producto **sevevicio-producto-commons**
