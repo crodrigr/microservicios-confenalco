@@ -28,3 +28,8 @@ Se copia la clase entity **Producto.java** del proyecto **servicios-productos** 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/64efac70-453e-4117-8980-8e7180fde053)
 
+## 4. Generar .jar
+
+Con el comando **mvn install** se genera el jar del proyecto. El cual, se guarda en el repositorio **.2m** local, esto va permitir que se pueda importar como de pendencia en otros proyectos. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fecdf5d6-23f6-4868-86c2-5eb860c1db07)
