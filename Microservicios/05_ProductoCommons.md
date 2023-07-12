@@ -10,3 +10,9 @@ En spring intializr se crea el proyecto con la siguiente configuración. La enti
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/41d092e7-9272-4b79-9b58-709fbc2989e6)
 
+
+## 2. Se elimina el método main
+
+En la clase **ProductoApplication** se elimina el método main, por que, este proyecto es de libreria, nunca se lanza. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/67b0fce2-1c79-4840-8726-6fe847d34a28)
