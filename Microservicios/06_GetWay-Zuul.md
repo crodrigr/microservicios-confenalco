@@ -24,4 +24,19 @@ A continución se tiene la configuración del proyecto de zuul
 
 Zuul solo funciona hasta la versión 2.4 de spring boot. Por lo tanto, se debe hacer un ajuste manual. 
 
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e24b08be-4f2c-49af-b27f-c31a9f99f272)
+
+## 3. Activar zuul
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/267734c4-8e59-4262-b6d2-10c00a37e4fe)
+
+## 4. Configuración de application.properties
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3ace5115-aba3-49c1-ae67-5acc95f46fac)
+
+## 5. Consulta en postma con zuul
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d77428ae-c20a-4f08-b7c4-c5c3ef6be87f)
+
+
 
