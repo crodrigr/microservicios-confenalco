@@ -12,3 +12,16 @@ En resumen, Zuul en Spring Boot es una solución para implementar puertas de enl
 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/44dca83f-b580-473b-b579-aa531736efd2)
+
+
+## 1. Crear el proyecto servicio-zuul
+
+A continución se tiene la configuración del proyecto de zuul
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/edf6f48a-ac94-4994-a056-d9a98ab09e47)
+
+## 2. Ajustar versiones de depencia
+
+Zuul solo funciona hasta la versión 2.4 de spring boot. Por lo tanto, se debe hacer un ajuste manual. 
+
+
