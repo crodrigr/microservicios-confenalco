@@ -18,6 +18,13 @@ En la clase **ProductoApplication** se elimina el método main, por que, este pr
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/67b0fce2-1c79-4840-8726-6fe847d34a28)
 
 
-## 3. Se quita el puglins de maven
+## 3. Se quita el plugins de maven
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5803e520-e119-4cb8-bebb-9528dda85db2)
+
+## 4. Se copia Producto.java de servicio-productos
+
+Se copia la clase entity **Producto.java** del proyecto **servicios-productos** en el paquete **models -> entites**. Es importante ajustar el pequete por que ya no está en el proyecto de **sevicios-productos**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/64efac70-453e-4117-8980-8e7180fde053)
+
