@@ -46,9 +46,13 @@ El proyecto se excluye la configuración de la base de datos. Si no se hace, ent
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cfd5099f-f49e-4657-a1b0-954de4606ee6)
 
-## 6. Import producto-commons en servicios-item
+## 6. Import producto-commons en servicios-producto y servicios-item
 
 ### 6.1 Copiar groupId, artifactId y version de producto-commons
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/988194fc-6be9-46e4-ad53-c933814d9bc2)
+
+### 6.2 Colocar la dependencia en servicios-producto
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/6cabc71b-17cf-4277-9d4d-a75be2c8aec2)
 
