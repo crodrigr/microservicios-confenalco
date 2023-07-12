@@ -16,3 +16,8 @@ En spring intializr se crea el proyecto con la siguiente configuración. La enti
 En la clase **ProductoApplication** se elimina el método main, por que, este proyecto es de libreria, nunca se lanza. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/67b0fce2-1c79-4840-8726-6fe847d34a28)
+
+
+## 3. Se quita el puglins de maven
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5803e520-e119-4cb8-bebb-9528dda85db2)
