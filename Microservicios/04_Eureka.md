@@ -62,7 +62,7 @@ Se quita la anotación **@RibbonClient(name = "servicio-productos")**
 - pom.xml:
     -  cambiar la version spring
     -  quitar la dependencia ribbon
-    -  colcoar la version de spring-cloud
+    -  colocar la version de spring-cloud
 -  ItemApplicacion quitar rebbion
 -  AppConfiguracion quitar balanceloar
 -  application.properties quitar la lista de instancias de servicio-productos
