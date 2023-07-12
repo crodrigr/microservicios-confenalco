@@ -58,7 +58,7 @@ El proyecto se excluye la configuración de la base de datos. Si no se hace, ent
 
 ### 6.3 Ajustar las referencias import de producto
 
-Se debe cambiar el import del #1 al #2 para que apunte a el producto del commons y no del que se tenia. Elimine la clase **Reposotories -> Producto** y le genera error por que no encuentra el **com.demo.confenalco.demo.repositories.entities.Producto**, debe colocar **com.comfenalco.microservicios.commons.producto.models.entities.Producto** que corresponde a producto commons
+Se debe cambiar el import del #1 al #2 para que apunte a el producto del commons y no al de repositories. Elimine la clase **Reposotories -> Producto** y le genera error por que no encuentra el **com.demo.confenalco.demo.repositories.entities.Producto**, debe colocar **com.comfenalco.microservicios.commons.producto.models.entities.Producto** que corresponde a producto commons
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c262b24b-e1b2-4ad7-ba77-fb6e82787f5e)
 
