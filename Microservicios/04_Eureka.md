@@ -1,4 +1,4 @@
-# Eurka 
+# Eureka 
 
 Spring **Eureka** es un componente del framework Spring Cloud que proporciona capacidades de descubrimiento de servicios y balanceo de carga para aplicaciones basadas en microservicios. Permite a los microservicios registrarse automáticamente y descubrirse entre sí en un entorno distribuido.
 
