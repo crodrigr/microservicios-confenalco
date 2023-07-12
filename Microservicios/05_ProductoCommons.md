@@ -33,3 +33,10 @@ Se copia la clase entity **Producto.java** del proyecto **servicios-productos** 
 Con el comando **mvn install** se genera el jar del proyecto. El cual, se guarda en el repositorio **.2m** local, esto va permitir que se pueda importar como de pendencia en otros proyectos. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/fecdf5d6-23f6-4868-86c2-5eb860c1db07)
+
+## 5. Se quita H2 Database
+
+Se quita la dependencia **H2 Database** no es necesaria. Se genera nuevamen el .jar con **mvn install**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e176b52f-2406-43f1-837c-b85247e818ae)
+
