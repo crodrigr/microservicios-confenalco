@@ -66,7 +66,7 @@ Se quita la anotación **@RibbonClient(name = "servicio-productos")**
 -  ItemApplicacion quitar rebbion
 -  AppConfiguracion quitar balanceloar
 -  application.properties quitar la lista de instancias de servicio-productos
--  en cliente ProductoClienteRest color la url para que no genere error. 
+-  en cliente ProductoClienteRest colocar la url para que no genere error. 
    
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c30d57e9-53ce-422d-8de0-f7828f6e572f)
