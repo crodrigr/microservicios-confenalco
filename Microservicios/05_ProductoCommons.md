@@ -70,7 +70,7 @@ Como el proyecto servicio-producto la estructura de paquetes es diferente al com
 
 ### 6.5 servicio-item
 
-En este componente se debe realizar los mismo ajustes desde el apartado **6.1** que es importa el producto **servicios-producto-commons**. En **ItemApplication.java se debe excluir el datasource, por que, al importar de **servicio-producto-commons** están importando **spring-jpa**, pero en **servicio-items** no se tiene configuración de base de datos, por eso se debe excluir el datasource. 
+En este componente se debe realizar los mismo ajustes desde el apartado **6.1** que es importa el producto **servicios-producto-commons**. En **ItemApplication.java** se debe excluir el datasource, por que, al importar de **servicio-producto-commons** están importando **spring-jpa**, pero en **servicio-items** no se tiene configuración de base de datos, por eso se debe excluir el datasource. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/b89f6fa1-f595-42ed-933c-5921aa6ff7a2)
 
