@@ -42,7 +42,7 @@ Se quita la dependencia **H2 Database** no es necesaria. Se genera nuevamen el .
 
 ### 5.1 Se exclude el DataSourceAutoConfiguration
 
-El proyecto se excluye la configuración de la base de datos. Si no se hace, entoces nos pide un driver de conexión a la base datos como H2 o Mysql. Se genear nuevamente el .jar
+El proyecto se excluye la configuración de la base de datos. Si no se hace, entoces nos pide un driver de conexión a la base datos como H2 o Mysql. Se genera nuevamente el .jar
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cfd5099f-f49e-4657-a1b0-954de4606ee6)
 
