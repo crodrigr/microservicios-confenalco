@@ -63,7 +63,7 @@ En la clase **GetwayApplication** se debe colocar la anotación **@EnableDiscove
 
 ## 3. Configuración application.properties
 
-En el
+En el configuración del **aplication.properties** se coloca el nombre del proyecto y el puerto. En esta caso el puerto de la puerta de enlace, es fijo, por que siempre va ser el mismo punto para ingresa al *ecosistema de microservicios**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee6c967c-11e1-48d9-bfa8-258b635f8c73)
 
@@ -72,6 +72,8 @@ En el
 <br>
 
 ## 4. Confguración del application.yml
+
+En el proyecto **getway de spring** la configuración se hace en otro tipo de archivo de configuración muy utilizado, que es el **yaml**. Este archivo es de tipo jerárquico.  
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e1f15677-94a7-449e-bb80-7cc15cf138e1)
 
