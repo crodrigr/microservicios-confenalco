@@ -28,3 +28,9 @@ Spring Cloud **Gateway** y **Zuul** son dos gateways/API gateways utilizados en 
   - **Ecosistema:** Zuul tiene un ecosistema más maduro y ha sido ampliamente adoptado, con una mayor cantidad de características y extensiones disponibles.
     
 En resumen, tanto Spring Cloud Gateway como Zuul son opciones viables para implementar gateways/API gateways en el ecosistema de Spring Cloud. Spring Cloud Gateway se destaca por su enfoque reactivo y funcional, así como su flexibilidad y escalabilidad. Por otro lado, Zuul tiene un ecosistema más establecido y ofrece una opción más madura y ampliamente adoptada. La elección entre ambos dependerá de los requisitos específicos del proyecto y las preferencias técnicas.
+
+Que son los predicatos y filtros:
+
+**Predicados:** Los predicados se utilizan para tomar decisiones de enrutamiento basadas en características específicas de la solicitud entrante, como la ruta, los encabezados, los parámetros, etc. Los predicados determinan si una ruta en particular se debe aplicar a una solicitud entrante. Algunos ejemplos de predicados son los predicados de ruta, de encabezado, de método y de parámetro de consulta.
+
+**Filtros:** Los filtros se utilizan para realizar transformaciones y operaciones en las solicitudes y respuestas que pasan a través del Gateway. Los filtros pueden modificar, agregar o eliminar encabezados, modificar la solicitud o respuesta, realizar autenticación, agregar métricas, entre otras operaciones. Spring Cloud Gateway proporciona una variedad de filtros predefinidos que se pueden configurar y también permite crear filtros personalizados según tus necesidades.
