@@ -60,11 +60,13 @@ Puedes implementar tus propios filtros personalizados extendiendo las clases de 
 
 Los filtros en **Spring Cloud Zuul** brindan una manera flexible de realizar diversas operaciones y personalizaciones en las solicitudes y respuestas que pasan a través del enrutador Zuul, lo que permite implementar lógica de seguridad, transformación de datos y manipulación de solicitudes y respuestas de manera centralizada.
 
+### 7.1 PreTiempoTranscurridoFilter
+
 Crear filtro para calcular cuanto es el tiempo que toma zuul para atender una petición y enrutarla. Se crear la clase **PreTiempoTranscurridoFilter**
 
 ![image](https://user-images.githubusercontent.com/31961588/236098237-0a6da82d-d1ba-4178-baf9-5fa760f3cf4a.png)
 
-Se crea la clase PostTiempoTranscurridoFilter
+### 7.2 PostTiempoTranscurridoFilter
 
 ![image](https://user-images.githubusercontent.com/31961588/236098316-c363b2e4-160b-46f9-b7fe-d1553b6edc00.png)
 
