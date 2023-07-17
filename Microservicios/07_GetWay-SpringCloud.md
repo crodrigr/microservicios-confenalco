@@ -35,8 +35,19 @@ Que son los predicados y filtros:
 
   - **Filtros:** Los filtros se utilizan para realizar transformaciones y operaciones en las solicitudes y respuestas que pasan a través del Gateway. Los filtros pueden modificar, agregar o eliminar encabezados, modificar la solicitud o respuesta, realizar autenticación, agregar métricas, entre otras operaciones. Spring Cloud Gateway proporciona una variedad de filtros predefinidos que se pueden configurar y también permite crear filtros personalizados según tus necesidades.
 
+   - **uri:** se refiere a la URL de destino a la que se enviará la solicitud una vez que se cumplan los predicados y se haya realizado el enrutamiento adecuado. Es la dirección a la que se reenviará la solicitud después de aplicar cualquier transformación o filtro configurado.
+     La URI se define en la configuración de la ruta de Spring Cloud Gateway y puede ser una dirección URL completa o un URI 
+relativo. Aquí tienes un ejemplo de configuración de ruta con la URI definida:
+
 <br>
 <br>
 <br>
 
 ## 1. Spring Cloud Getway - proyecto
+
+En el spring initializr se realiza la configuración del proyecto con las siguentes dependencias: Gateway, Eureka Client, Web Tools
+
+### 1.1 Configuración de proyecto
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/77a86fc1-0700-4f48-a72c-f3ba000dd45c)
+
