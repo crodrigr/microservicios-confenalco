@@ -44,6 +44,22 @@ Zuul solo funciona hasta la versión 2.4 de spring boot. Por lo tanto, se debe h
 
 ## 7. Filtro zuul 
 
+En **Spring Cloud**, **Zuul** actúa como un enrutador y un punto de entrada para las solicitudes que llegan a una aplicación distribuida. Los filtros en Zuul permiten realizar diversas tareas, como la autenticación, la autorización, la modificación de las solicitudes o respuestas, el registro de métricas, el enrutamiento condicional, etc.
+
+Spring Cloud Zuul proporciona diferentes tipos de filtros, que se ejecutan en diferentes etapas del ciclo de vida de la solicitud. Algunos de los tipos de filtros disponibles son:
+
+   - **Pre-Filters:** Se ejecutan antes de que se envíe la solicitud al destino final. Estos filtros se utilizan para realizar tareas como la validación, la autenticación y la transformación de la solicitud entrante.
+
+   - **Route Filters:** Se ejecutan cuando Zuul está en proceso de enrutar la solicitud a un servicio de backend. Estos filtros se utilizan para realizar operaciones como enrutamiento condicional, ajuste de la ruta de destino, agregación de encabezados, etc.
+
+   - **Post-Filters:** Se ejecutan después de que se ha recibido la respuesta del servicio de backend y antes de que se devuelva al cliente. Estos filtros se utilizan para realizar tareas como la modificación de la respuesta, la agregación de encabezados adicionales, el registro de métricas, etc.
+
+   - **Error Filters:** Se ejecutan cuando se produce un error en alguna etapa del procesamiento de la solicitud. Estos filtros se utilizan para realizar acciones de manejo de errores, como el registro de errores, la transformación de la respuesta de error, la recuperación de errores, etc.
+
+Puedes implementar tus propios filtros personalizados extendiendo las clases de filtros proporcionadas por Spring Cloud Zuul y anotándolas adecuadamente. Estos filtros se configuran y se registran en el servidor Zuul para que se apliquen a todas las solicitudes entrantes o se pueden configurar de forma más específica para aplicarse a rutas o patrones de URL específicos.
+
+Los filtros en **Spring Cloud Zuul** brindan una manera flexible de realizar diversas operaciones y personalizaciones en las solicitudes y respuestas que pasan a través del enrutador Zuul, lo que permite implementar lógica de seguridad, transformación de datos y manipulación de solicitudes y respuestas de manera centralizada.
+
 Crear filtro para calcular cuanto es el tiempo que toma zuul para atender una petición y enrutarla. Se crear la clase **PreTiempoTranscurridoFilter**
 
 ![image](https://user-images.githubusercontent.com/31961588/236098237-0a6da82d-d1ba-4178-baf9-5fa760f3cf4a.png)
