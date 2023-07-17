@@ -74,10 +74,3 @@ Crear filtro para calcular cuanto es el tiempo que toma zuul para atender una pe
 <br>
 <br>
 
-## 8. Aplicar timeout en zuul 
-
-Esto permite que no genere timeout si se demora mas tiempo en resolver el routing. 
-
-![image](https://user-images.githubusercontent.com/31961588/236098667-f7f9a33c-445b-4d6b-bb02-c2ae7bbd1ec1.png)
-
-
