@@ -51,3 +51,29 @@ En el spring initializr se realiza la configuración del proyecto con las siguen
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/77a86fc1-0700-4f48-a72c-f3ba000dd45c)
 
+## 2. Enable eureka client
+
+En la clase **GetwayApplication** se debe colocar la anotación **@EnableDiscoveryClient** para activar el cliente de Eureka de este proyecto. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/22485032-1c0e-4ef3-9e03-75212ec94f2b)
+
+<br>
+<br>
+<br>
+
+## 3. Configuración application.properties
+
+En el
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee6c967c-11e1-48d9-bfa8-258b635f8c73)
+
+<br>
+<br>
+<br>
+
+## 4. Confguración del application.yml
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e1f15677-94a7-449e-bb80-7cc15cf138e1)
+
+
+
