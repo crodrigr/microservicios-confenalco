@@ -56,7 +56,7 @@ Se crea la clase PostTiempoTranscurridoFilter
 <br>
 <br>
 
-## 7 Aplicar timeout en zuul 
+## 8. Aplicar timeout en zuul 
 
 Esto permite que no genere timeout si se demora mas tiempo en resolver el routing. 
 
