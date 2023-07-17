@@ -77,5 +77,7 @@ En el proyecto **getway de spring** la configuración se hace en otro tipo de ar
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e1f15677-94a7-449e-bb80-7cc15cf138e1)
 
+Ahora en el proyecto se tiene dos puertas de enlaces, **zuul** y **getway**, ambas están configuradas con el puerto **8090**. Solo se pueda usar una a la vez. 
+
 
 
