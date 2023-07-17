@@ -38,5 +38,28 @@ Zuul solo funciona hasta la versión 2.4 de spring boot. Por lo tanto, se debe h
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d77428ae-c20a-4f08-b7c4-c5c3ef6be87f)
 
+<br>
+<br>
+<br>
+
+## 7. Filtro zuul 
+
+Crear filtro para calcular cuanto es el tiempo que toma zuul para atender una petición y enrutarla. Se crear la clase **PreTiempoTranscurridoFilter**
+
+![image](https://user-images.githubusercontent.com/31961588/236098237-0a6da82d-d1ba-4178-baf9-5fa760f3cf4a.png)
+
+Se crea la clase PostTiempoTranscurridoFilter
+
+![image](https://user-images.githubusercontent.com/31961588/236098316-c363b2e4-160b-46f9-b7fe-d1553b6edc00.png)
+
+<br>
+<br>
+<br>
+
+## 7 Aplicar timeout en zuul 
+
+Esto permite que no genere timeout si se demora mas tiempo en resolver el routing. 
+
+![image](https://user-images.githubusercontent.com/31961588/236098667-f7f9a33c-445b-4d6b-bb02-c2ae7bbd1ec1.png)
 
 
