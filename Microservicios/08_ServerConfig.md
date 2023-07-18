@@ -132,6 +132,11 @@ Se crea un archivo **bootstrap.properties** con la configuración que va tomar d
 
 En el **ItemController** se define una variable de entorno y método hadler para obtener la configuración que está definido en el archivo **servicio-item.properties** a travé del **config-server**
 
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7740e679-b6c7-4c56-b2cf-b17050e4eb6e)
+
+<details><summary>Mostrar código</summary>
+<p>
+
 ```java
 @Autowired
 	private Environment env;
@@ -157,7 +162,8 @@ En el **ItemController** se define una variable de entorno y método hadler para
 	}
 
   ```  
-
+</p>
+</details>
 
 
 
