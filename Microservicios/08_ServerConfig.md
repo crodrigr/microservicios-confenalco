@@ -130,6 +130,14 @@ Se crea un archivo **bootstrap.properties** con la configuración que va tomar d
 
 <br>
 
+#### 4.5 Test server-config
+
+En **config** se tiene solo **servicio-items.properties** que sería el ambiente por defult de configuración. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3905a928-543a-4fc4-a42d-cc6f538f0053)
+
+<br>
+
 #### 4.6 Servicio-items handler
 
 En el **ItemController** se define una variable de entorno y método hadler para obtener la configuración que está definido en el archivo **servicio-item.properties** a través del **config-server**
