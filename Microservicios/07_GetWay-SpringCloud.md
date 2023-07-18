@@ -85,7 +85,7 @@ Ahora en el proyecto se tiene dos puertas de enlaces, **zuul** y **getway**, amb
 
 ## 5. Filtro global
 
-Un filtro gobla aplica para toda petición que llege al **getway** tanto, pre y pos filtre. Se crea una clase **EjemploGlobalFilter** que implemete la interfaz **GlobalFilter**
+Un filtro gobla aplica para toda petición que llege al **getway** tanto, pre y pos filtre. Se crea una clase **EjemploGlobalFilter** que implemete la interfaz **GlobalFilter**. En el **pre** agrega un toke en el header en el **request** y en el **post** obtiene el toke y en el header de response envia el token recuperado que se envio en el **pre**, una **cooke** color rojo y **conten-type** en text
 
 ### 5.1 EjemploGlobalFilter
 
