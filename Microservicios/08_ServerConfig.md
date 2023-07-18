@@ -211,15 +211,19 @@ configuracion.texto=Configurando ambiente por defecto
 
 A continuación se va configurar **servicio-items** para que pueda aplicar a varios perfiles de configuración que se tiene configurado. 
 
+<br>
+
 **Configuración bootstrap**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1808adab-6f68-4a91-a287-eb8f1d88b32e)
 
+<br>
 
 **ItemController /obtener-config**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1fae2078-c789-475e-9350-1ed8da180476)
 
+<br>
 
 **Postman**
 
