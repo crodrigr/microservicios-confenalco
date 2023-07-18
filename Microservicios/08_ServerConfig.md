@@ -150,9 +150,6 @@ En el **ItemController** se define una variable de entorno y método hadler para
 <p>
 
 ```java
-@Autowired
-	private Environment env;
-
  @Value("${configuracion.texto}")
     private String texto;
 
@@ -164,12 +161,7 @@ En el **ItemController** se define una variable de entorno y método hadler para
 		Map<String, String> json = new HashMap<>();
 		json.put("texto", texto);
 		json.put("puerto", puerto);
-		
-		if(env.getActiveProfiles().length>0 && env.getActiveProfiles()[0].equals("dev")) {
-			json.put("autor.nombre", env.getProperty("configuracion.autor.nombre"));
-			json.put("autor.email", env.getProperty("configuracion.autor.email"));
-		}
-		
+				
 		return new ResponseEntity<Map<String, String>>(json, HttpStatus.OK);
 	}
 
@@ -179,7 +171,7 @@ En el **ItemController** se define una variable de entorno y método hadler para
 
 <br>
 
-#### 4.6 Servicio-items varios ambientes
+#### 4.7 Servicio-items varios ambientes
 
 En un entorno de trabajo se puede tener vario ambientes de configuración, como test, dev, y prod, por lo tanto, para cada  uno se debe tener su propio archivo de configuración. A continuación para **servicio-items** se crearon tres ambientes:
 
