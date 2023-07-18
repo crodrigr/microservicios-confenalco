@@ -79,5 +79,22 @@ En el proyecto **getway de spring** la configuración se hace en otro tipo de ar
 
 Ahora en el proyecto se tiene dos puertas de enlaces, **zuul** y **getway**, ambas están configuradas con el puerto **8090**. Solo se pueda usar una a la vez. 
 
+<br>
+<br>
+<br>
+
+## 5. Filtro global
+
+Un filtro gobla aplica para toda petición que llege al **getway** tanto, pre y pos filtre. Se crea una clase **EjemploGlobalFilter** que implemete la interfaz **GlobalFilter**
+
+### 5.1 EjemploGlobalFilter
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/95a61148-4932-4aea-a359-8098e691415e)
+
+### 5.2 Respuesta 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2d5c172c-9952-41e6-830e-641390ff160f)
+
+
 
 
