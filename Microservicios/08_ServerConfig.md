@@ -230,7 +230,11 @@ A continuación se va configurar **servicio-items** para que pueda aplicar a var
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/90582616-6663-439f-9d0d-410a1626c9af)
 
 
+#### 4.9 Servicio-items refeshScope
 
+En un escenario productivo muchas veces tener que bajar un servicio para que tome una nueva configuración puede llegar a ser my critica. Con el **RefreshScope** se puede hacer cambiar la configuración de los **properties** del  **config-server** sin necesidad de reinicar los servicios. 
+
+Para esto se debe utilizar **Actuator** que es una dependencia de spring-boot para monitorear la salud de un microservicio. Se debe colocar al dependencia en el pom.xml. Esta dependencia ya se incluyo 
 
 
 
