@@ -86,6 +86,16 @@ Se debe crear el repositorio en el directorio **git** con el comando **git init*
 
 <br>
 
+Agregar cambios y hacer commit. Con el comando **git add .** valida todos los archivos que tiene el directorio **config** con cambios pendientes, luego de pasan al states que es un estado pendiente para ir al commit y para hacerlo se hace a través del comando **git commit -m "configuración de servicio-items"**
+
+<br>
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/85df6b6f-1c10-4757-86ad-f426f8c7a406)
+
+<br>
+
+
+
 
 
 
