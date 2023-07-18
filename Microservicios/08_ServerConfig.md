@@ -143,7 +143,8 @@ En **config** se tiene solo **servicio-items.properties** que sería el ambiente
 
 En el **ItemController** se define una variable de entorno y método hadler para obtener la configuración que está definido en el archivo **servicio-item.properties** a través del **config-server**
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7740e679-b6c7-4c56-b2cf-b17050e4eb6e)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/e1748a2d-64f4-4177-8bbc-b91dc4c3505b)
+
 
 <details><summary>Mostrar código</summary>
 <p>
