@@ -70,7 +70,7 @@ Iniciamos creando un archivo de configuración para uno de los microservicios. E
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/00c60b2b-7f11-471c-adc7-d825f227478b)
 
-c
+<br>
 
 #### 4.2 Git init
 
@@ -80,11 +80,12 @@ Iniciamente el directorio **config** no tiene inicializado el **git**, por lo ta
 
 <br>
 
-Se debe crear el repositorio en el directorio **git** con el comando
+Se debe crear el repositorio en el directorio **git** con el comando **git init**
 
-```cmd
-git init
-```
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5db96230-0a91-4179-ac69-6a457162f087)
+
+<br>
+
 
 
 
