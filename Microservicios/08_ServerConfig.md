@@ -205,10 +205,25 @@ server.port=8005
 configuracion.texto=Configurando ambiente por defecto
 
 ```
+<br>
+
+#### 4.8 Servicio-items perfiles
+
+A continuación se va configurar **servicio-items** para que pueda aplicar a varios perfiles de configuración que se tiene configurado. 
+
+**Configuración bootstrap**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1808adab-6f68-4a91-a287-eb8f1d88b32e)
 
 
+**ItemController /obtener-config**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/1fae2078-c789-475e-9350-1ed8da180476)
 
 
+**Postman**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/90582616-6663-439f-9d0d-410a1626c9af)
 
 
 
