@@ -25,3 +25,11 @@ En resumen, **Spring Cloud Config** es una herramienta de Spring Cloud que permi
 
 <br>
 <br>
+
+
+## 1. Configuración del proyecto
+
+En el spring-initializr se hace la configuración del proyecto con las depedencias; **Config server**, y **DevTools**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2ac50bef-66ec-43ce-9dcd-28e4e71149c2)
+
