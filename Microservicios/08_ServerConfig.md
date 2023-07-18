@@ -176,6 +176,20 @@ En el **ItemController** se define una variable de entorno y método hadler para
 </details>
 
 
+#### 4.6 Servicio-items varios ambientes
+
+En un entorno de trabajo se puede tener vario ambientes de configuración, como test, dev, y prod, por lo tanto, para cada  uno se debe tener su propio archivo de configuración. A continuación para **servicio-items** se crearon tres ambientes:
+
+   - servicio-items.properties: configuración por defecto
+   - servicio-items-dev.properties: configuración desarrollo
+   - servicio-items-prod.properties: configuración produción
+
+Todos los cambios y los nuevos archivos en **config** se deben hacer **commit** para que el **config-server** tome los cambio.s 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7dd1bb2b-567b-4c42-a47d-90ee7c0434ab)
+
+
+
 
 
 
