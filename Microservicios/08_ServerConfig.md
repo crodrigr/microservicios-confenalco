@@ -62,3 +62,34 @@ Los archivos de configuración se puede guardar de forma local o remoto (cloud).
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/defba764-b498-4b36-b087-52800d302765)
 
+## 4. Servicio-items.properties
+
+Iniciamos creando un archivo de configuración para uno de los microservicios. En esta caso con **servicio-items**, en el directdorio **config** se crea **servicio-items.properties**. Se tiene dos variables configuradas: server.port y configuracion.text.
+
+#### 4.1 servicio-items
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/00c60b2b-7f11-471c-adc7-d825f227478b)
+
+c
+
+#### 4.2 Git init
+
+Iniciamente el directorio **config** no tiene inicializado el **git**, por lo tanto, al verificar que rama tiene este repositorio retorna error. 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/74deb42f-2268-4ba3-be73-44d8a0c54ea9)
+
+<br>
+
+Se debe crear el repositorio en el directorio **git** con el comando
+
+```cmd
+git init
+```
+
+
+
+
+
+
+
+
