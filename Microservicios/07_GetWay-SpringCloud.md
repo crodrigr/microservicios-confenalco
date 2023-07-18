@@ -194,4 +194,9 @@ public class EjemploGatewayFilterFactory extends AbstractGatewayFilterFactory<Ej
 </p>
 </details>
 
+### 6.1 Repuesta
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/23424e65-d170-4005-a318-9a18e0abb9d8)
+
+
 
