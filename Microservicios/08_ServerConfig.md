@@ -118,11 +118,45 @@ Las principales diferencias entre "application.properties" y "bootstrap.properti
 
 En resumen, el archivo "application.properties" es el archivo de configuración principal de una aplicación Spring Boot y se utiliza para configurar la aplicación y sus componentes internos. El archivo "bootstrap.properties" es un archivo de configuración especial utilizado en conjunto con Spring Cloud Config, y se utiliza para configurar el proceso de inicio y la configuración inicial de la conexión al servidor de configuración centralizado
 
+<br>
+
 #### 4.5 Servicio-items configurar bootstrap
 
 Se crea un archivo **bootstrap.properties** con la configuración que va tomar del **server-config**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/26e34b6b-d08f-4188-9025-c6acbaf21058)
+
+<br>
+
+#### 4.6 Servicio-items handler
+
+En el **ItemController** se define una variable de entorno y método hadler para obtener la configuración que está definido en el archivo **servicio-item.properties** a travé del **config-server**
+
+```java
+@Autowired
+	private Environment env;
+
+ @Value("${configuracion.texto}")
+    private String texto;
+
+@GetMapping("/obtener-config")
+	public ResponseEntity<?> obtenerConfig(@Value("${server.port}") String puerto){
+		
+		log.info(texto);
+		
+		Map<String, String> json = new HashMap<>();
+		json.put("texto", texto);
+		json.put("puerto", puerto);
+		
+		if(env.getActiveProfiles().length>0 && env.getActiveProfiles()[0].equals("dev")) {
+			json.put("autor.nombre", env.getProperty("configuracion.autor.nombre"));
+			json.put("autor.email", env.getProperty("configuracion.autor.email"));
+		}
+		
+		return new ResponseEntity<Map<String, String>>(json, HttpStatus.OK);
+	}
+
+  ```  
 
 
 
