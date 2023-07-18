@@ -40,3 +40,16 @@ En el spring-initializr se hace la configuración del proyecto con las depedenci
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2ac50bef-66ec-43ce-9dcd-28e4e71149c2)
 
+<br>
+<br>
+<br>
+
+
+## 2. EnableConfigServer
+
+En la clase **ConfigApplication** se de activar el config server a través de la anotación **@EnableConfigServer**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/6558e5e2-9058-45dc-b8ef-902f6f650e47)
+
+
+
