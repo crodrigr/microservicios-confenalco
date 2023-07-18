@@ -51,5 +51,13 @@ En la clase **ConfigApplication** se de activar el config server a través de la
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/6558e5e2-9058-45dc-b8ef-902f6f650e47)
 
+<br>
+<br>
+<br>
 
+## 2. Configuración de application.properties
+
+Los archivos de configuración se puede guardar de forma local o remoto (cloud). En esta configuración se esta guardando de forma local en el directorio **config**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/defba764-b498-4b36-b087-52800d302765)
 
