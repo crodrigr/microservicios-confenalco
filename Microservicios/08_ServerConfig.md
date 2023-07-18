@@ -175,6 +175,7 @@ En el **ItemController** se define una variable de entorno y método hadler para
 </p>
 </details>
 
+<br>
 
 #### 4.6 Servicio-items varios ambientes
 
@@ -188,9 +189,28 @@ Todos los cambios y los nuevos archivos en **config** se deben hacer **commit** 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/7dd1bb2b-567b-4c42-a47d-90ee7c0434ab)
 
+**prod**
 
+```properties
+server.port=8007
+configuracion.texto=Configurando ambiente de Produccion
 
+```
+**dev**
 
+```properties
+configuracion.texto=Configurando entorno Desarrollo ...
+configuracion.autor.nombre=Camilo Rodriguez
+configuracion.autor.email=camilo.rodrigueaz@correo.com
+```
+
+**default**
+
+```properties
+server.port=8005
+configuracion.texto=Configurando ambiente por defecto
+
+```
 
 
 
