@@ -234,9 +234,22 @@ A continuación se va configurar **servicio-items** para que pueda aplicar a var
 
 En un escenario productivo muchas veces tener que bajar un servicio para que tome una nueva configuración puede llegar a ser my critica. Con el **RefreshScope** se puede hacer cambiar la configuración de los **properties** del  **config-server** sin necesidad de reinicar los servicios. 
 
-Para esto se debe utilizar **Actuator** que es una dependencia de spring-boot para monitorear la salud de un microservicio. Se debe colocar al dependencia en el pom.xml. Esta dependencia ya se incluyo 
+Para esto se debe utilizar **Actuator** que es una dependencia de spring-boot para monitorear la salud de un microservicio. Se debe colocar al dependencia en el pom.xml. Esta dependencia ya se incluyo en el apartado 4.3
+
+Para hacer una prueba de esta funcionalidad, se inica todos lo componentes de nuestro ecosistema de microservicios, luego se hace un cambio en el archivo **servicio-items-dev.properties** 
+
+**ItemController RefresScope**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/5cf2fb4c-7111-45cd-9d71-4d73291b5832)
 
 
+**Bootstrap.properties**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/41b39132-db7b-4a59-b36c-89443b87197f)
+
+**Actuator aplique cambios**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3a923332-6849-4233-8aba-c20efd6f88f7)
 
 
 
