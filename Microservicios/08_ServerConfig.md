@@ -120,6 +120,8 @@ En resumen, el archivo "application.properties" es el archivo de configuración 
 
 #### 4.7 Servicio-items configurar bootstrap
 
+Se crea un archivo **bootstrap.properties** con la configuración que va tomar del **server-config**
+
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/26e34b6b-d08f-4188-9025-c6acbaf21058)
 
 
