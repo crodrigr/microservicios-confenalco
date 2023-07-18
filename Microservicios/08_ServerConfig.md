@@ -118,7 +118,7 @@ Las principales diferencias entre "application.properties" y "bootstrap.properti
 
 En resumen, el archivo "application.properties" es el archivo de configuración principal de una aplicación Spring Boot y se utiliza para configurar la aplicación y sus componentes internos. El archivo "bootstrap.properties" es un archivo de configuración especial utilizado en conjunto con Spring Cloud Config, y se utiliza para configurar el proceso de inicio y la configuración inicial de la conexión al servidor de configuración centralizado
 
-#### 4.7 Servicio-items configurar bootstrap
+#### 4.5 Servicio-items configurar bootstrap
 
 Se crea un archivo **bootstrap.properties** con la configuración que va tomar del **server-config**
 
