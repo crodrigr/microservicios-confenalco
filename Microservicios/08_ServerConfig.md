@@ -3,8 +3,8 @@
 <br>
 <br>
 
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/f55c4a7d-b14a-4158-8af8-a26bc72bbdf5)
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/8fb7023c-d888-479d-b050-634d4c8630f3)
 
 <br>
 <br>
