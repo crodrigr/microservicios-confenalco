@@ -98,7 +98,8 @@ Agregar cambios y hacer commit. Con el comando **git add .** valida todos los ar
 
 En el proyecto **servicio-items** se debe agregar la dependencia de **confi-client**
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/96c2aa51-758c-425d-a258-4dc7ee7ec709)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/f11ca135-f61a-494a-bd8c-3128df7f8d47)
+
 
 <br>
 
