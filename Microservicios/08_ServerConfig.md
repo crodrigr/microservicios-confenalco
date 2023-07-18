@@ -55,9 +55,9 @@ En la clase **ConfigApplication** se de activar el config server a través de la
 <br>
 <br>
 
-## 2. Configuración de application.properties
+## 2. Application.properties
 
-Los archivos de configuración se puede guardar de forma local o remoto (cloud). En esta configuración se esta guardando de forma local en el directorio **config**
+Los archivos de configuración se puede guardar de forma local o remoto (cloud). En esta configuración se esta guardando de forma local en el directorio **config**. En el **application.properties** se realiza la configuración del proyecto. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/defba764-b498-4b36-b087-52800d302765)
 
