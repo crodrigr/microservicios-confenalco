@@ -102,6 +102,22 @@ En el proyecto **servicio-items** se debe agregar la dependencia de **confi-clie
 
 <br>
 
+#### 4.4 Application vs bootstrap
+
+El archivo "application.properties" es el archivo de configuración principal de una aplicación Spring Boot. Contiene propiedades que se aplican a la propia aplicación y a los componentes específicos de Spring Boot. Aquí se pueden configurar propiedades como el puerto en el que la aplicación se ejecutará, la configuración de la base de datos, la configuración de la seguridad, entre otras.
+
+El archivo **bootstrap.properties**, por otro lado, es un archivo de configuración especial que se utiliza cuando se está utilizando Spring Cloud Config junto con Spring Boot. Se utiliza para configurar el comportamiento del contexto de inicio y la configuración inicial de las aplicaciones que se conectan a un servidor de configuración centralizado.
+
+Las principales diferencias entre "application.properties" y "bootstrap.properties" son:
+
+    - **Orden de carga:** En una aplicación Spring Boot sin Spring Cloud Config, solo se carga el archivo "application.properties" y se utiliza para configurar la aplicación. Sin embargo, cuando se utiliza Spring Cloud Config, se carga primero el archivo "bootstrap.properties" antes del archivo "application.properties". Esto permite configurar propiedades específicas de Spring Cloud Config antes de que se inicialicen otros componentes de la aplicación.
+
+    - **Propósito:** El archivo "application.properties" se utiliza para configurar la aplicación y sus componentes internos de Spring Boot. Por otro lado, el archivo "bootstrap.properties" se utiliza para configurar el proceso de inicio de la aplicación y, en el caso de Spring Cloud Config, para la configuración inicial de la conexión al servidor de configuración centralizado.
+
+     - **Alcance:** El archivo "application.properties" afecta a toda la aplicación Spring Boot, mientras que el archivo "bootstrap.properties" se utiliza principalmente para configurar la inicialización del contexto y la conexión con el servidor de configuración centralizado en el caso de Spring Cloud Config.
+
+En resumen, el archivo "application.properties" es el archivo de configuración principal de una aplicación Spring Boot y se utiliza para configurar la aplicación y sus componentes internos. El archivo "bootstrap.properties" es un archivo de configuración especial utilizado en conjunto con Spring Cloud Config, y se utiliza para configurar el proceso de inicio y la configuración inicial de la conexión al servidor de configuración centralizado
+
 
 
 
