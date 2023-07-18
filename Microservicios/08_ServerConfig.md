@@ -94,7 +94,7 @@ Agregar cambios y hacer commit. Con el comando **git add .** valida todos los ar
 
 <br>
 
-#### 4.3 Dependencias servicio-items
+#### 4.3 Servicio-items dependencias
 
 En el proyecto **servicio-items** se debe agregar la dependencia de **confi-client**
 
