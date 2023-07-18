@@ -21,7 +21,7 @@ Algunas características y conceptos clave de Spring Cloud Config son:
 
    6. **Integración con otros componentes de Spring Cloud:** Spring Cloud Config se integra con otros componentes de Spring Cloud, como el descubrimiento de servicios (Eureka), el enrutamiento (Zuul) y el equilibrio de carga (Ribbon), para proporcionar una solución completa para el desarrollo de microservicios.
 
-En resumen, Spring Cloud Config es una herramienta de Spring Cloud que permite la gestión centralizada de la configuración en entornos de microservicios. Proporciona un servidor de configuración y capacidades de actualización dinámica de la configuración, lo que facilita la gestión flexible y dinámica de las configuraciones de las aplicaciones distribuidas.
+En resumen, **Spring Cloud Config** es una herramienta de Spring Cloud que permite la gestión centralizada de la configuración en entornos de microservicios. Proporciona un servidor de configuración y capacidades de actualización dinámica de la configuración, lo que facilita la gestión flexible y dinámica de las configuraciones de las aplicaciones distribuidas.
 
 <br>
 <br>
