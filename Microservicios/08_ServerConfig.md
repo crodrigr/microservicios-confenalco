@@ -1,5 +1,8 @@
 # Servidor de configuraión
 
+<br>
+<br>
+
 Spring Cloud Config es una herramienta de Spring Cloud que proporciona un servicio de configuración centralizada para aplicaciones distribuidas basadas en microservicios. Permite gestionar de manera centralizada la configuración de múltiples servicios en entornos de nube y facilita la actualización y distribución de la configuración sin necesidad de reiniciar las aplicaciones.
 
 Spring Cloud Config se basa en el principio de que la configuración de una aplicación debe estar separada de su código fuente. En lugar de incluir la configuración directamente en el código de la aplicación, se almacena en un repositorio centralizado, como Git, SVN o un sistema de archivos.
