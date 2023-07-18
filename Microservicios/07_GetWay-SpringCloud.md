@@ -203,4 +203,20 @@ public class EjemploGatewayFilterFactory extends AbstractGatewayFilterFactory<Ej
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/23424e65-d170-4005-a318-9a18e0abb9d8)
 
 
+## 7. Filtros de fabrica
+
+Son los filtros que ya viene definidos, como por ejemplo, **RequestHeader** y **ReponseHeader**. Se configura en **aplication.yml**. 
+
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9df0e615-ad7a-4d68-963e-48af6bf497f3)
+
+### 7.1 ItemController
+
+En **ItemController** en el endpoint **/listar** se obtine los parametros enviado en el **pre-filter** por **@RequestParam** y **@RequestHeader**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/0fd47c16-a2a5-4517-b5ea-0f0b554e3065)
+
+**Response Header**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d5b7e44b-eaaf-41cc-b047-dfeedb4bf58f)
 
