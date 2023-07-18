@@ -100,7 +100,12 @@ Un filtro gobla aplica para toda petición que llege al **getway** tanto, pre y 
 
 En el directorio **factory** se crea una clase Ejemplo**GatewayFilterFactory**, la cual, va ser un filtro personalizado. Los filtros personlizados llevan siempre **GatewayFilterFactory** y lo precide el nombre del filtro. 
 
-```java {style="background-color: ffffff;"}
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/591824c3-6bf7-47f7-b919-06a73d510a49)
+
+<details><summary>Mostrar código</summary>
+<p>
+
+```java {style="background-color: #ffffff;"}
 package com.comfenalco.microservicio.getway.filters.factory;
 
 import java.util.Arrays;
@@ -186,6 +191,7 @@ public class EjemploGatewayFilterFactory extends AbstractGatewayFilterFactory<Ej
 
 
 ```
-
+</p>
+</details>
 
 
