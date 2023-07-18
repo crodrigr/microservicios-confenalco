@@ -30,6 +30,7 @@ Algunas características y conceptos clave de Spring Cloud Config son:
 
 En resumen, **Spring Cloud Config** es una herramienta de Spring Cloud que permite la gestión centralizada de la configuración en entornos de microservicios. Proporciona un servidor de configuración y capacidades de actualización dinámica de la configuración, lo que facilita la gestión flexible y dinámica de las configuraciones de las aplicaciones distribuidas.
 
+**Nota**: para la implemtación de **config-server** se debe tener instalado el **git**
 <br>
 <br>
 
@@ -55,7 +56,7 @@ En la clase **ConfigApplication** se de activar el config server a través de la
 <br>
 <br>
 
-## 2. Application.properties
+## 3. Application.properties
 
 Los archivos de configuración se puede guardar de forma local o remoto (cloud). En esta configuración se esta guardando de forma local en el directorio **config**. En el **application.properties** se realiza la configuración del proyecto. 
 
