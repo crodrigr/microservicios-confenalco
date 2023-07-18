@@ -1,4 +1,4 @@
-# Servidor de configuraión
+# Servidor de configuración
 
 <br>
 <br>
