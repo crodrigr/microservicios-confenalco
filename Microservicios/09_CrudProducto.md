@@ -14,7 +14,7 @@ En la capa de services en  la interfaz **ProductoService** y en la implementaci�
 
 <br>
 
-#### 1.1 ProductoService
+### 1.1 ProductoService
 
 En la interfaz **ProductoService** se defini los métdos: save y deleteById. Para crea un producto y eliminar producto por Id
 
@@ -31,14 +31,14 @@ Se hace la implementación de los metodos **save** y **deleteById**
 
 <br>
 
-#### 1.3 ProductoController
+### 1.3 ProductoController
 
 En el **ProductoController** se crea los **endpoint** se **crear**, **editar** y **eliminar**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/2e03d2d6-2e68-4c45-9474-be49d8610ad3)
 
 
-#### 1.4 Crear producto
+### 1.4 Crear producto
 
 Este un ejemplo de como se podría probar en postman la creación de un producto. 
 
