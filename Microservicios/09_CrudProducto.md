@@ -48,5 +48,10 @@ Este un ejemplo de como se podría probar en postman la creación de un producto
 
 En el **servicio-items** en la capa **servicio** y **controller** se van adecuar para que desde servicio-items se pueda crear, modificar y eliminar productos. 
 
+### 2.1 Servicio items en servicie
+
+En la interfaz **ServiceItems** se adiciona los métodos: save, update y delete que van a permiter crea un producto, 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/c439db49-bf56-4fbe-b3ee-53732f8c9186)
 
 
