@@ -7,7 +7,6 @@ El proyecto **servicio-productos** solo tenia dos servicios: listar y ver. En es
 
 <br>
 <br>
-<br>
 
 ### 1. Capa services
 
