@@ -282,6 +282,13 @@ Se estable la relación de reposotorio **local** con el **remoto** y se hace la 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/93bf18a2-7448-4b4f-8713-bdf263ca1e2d)
 
+#### 5.3 Servicio-config application.properties
+
+En el proyecto de **servicio-config-server** se debe cambiar la configuración del git para direccione al git remoto y no el local 
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cfd3c3e4-2331-4429-8cd8-035c26f8ec83)
+
+
 
 
 
