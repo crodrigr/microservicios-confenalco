@@ -272,7 +272,7 @@ Una vez creado el repositorio se deben subir los archivos de configuración que 
 
 <br>
 
-### 5.1 Push cambios 
+#### 5.2 Push cambios 
 
 Se estable la relación de reposotorio **local** con el **remoto** y se hace la sincronización de subir cambios con **push**
 
