@@ -288,6 +288,13 @@ En el proyecto de **servicio-config-server** se debe cambiar la configuración d
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/cfd3c3e4-2331-4429-8cd8-035c26f8ec83)
 
+Se hace un cambio en los archivos de configuración, estos se debe subir al gitHub para que queden actulizados. 
+
+**Test en postam**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/84091311-e0fe-4e34-830a-1ef948cc434d)
+
+
 
 
 
