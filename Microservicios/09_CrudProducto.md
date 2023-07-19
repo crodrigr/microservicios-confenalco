@@ -43,3 +43,10 @@ En el **ProductoController** se crea los **endpoint** se **crear**, **editar** y
 Este un ejemplo de como se podría probar en postman la creación de un producto. 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/6363ce0c-53c8-409b-935f-b5ef6f2311ac)
+
+## 2. Servicio items 
+
+En el **servicio-items** en la capa **servicio** y **controller** se van adecuar para que desde servicio-items se pueda crear, modificar y eliminar productos. 
+
+
+
