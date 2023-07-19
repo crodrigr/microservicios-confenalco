@@ -258,14 +258,30 @@ Para hacer una prueba de esta funcionalidad, se inica todos lo componentes de nu
 
 ## 5. Github
 
-Es posible tener un repositorio en la nube, como github, en el cual, se va colocar los archivos de configuración que van a ser gestionados por **config-server**. De esta forma de tiene mucho más decentralizado. 
+Es posible tener un repositorio en la nube, como github en el cual, se va colocar los archivos de configuración que van a ser gestionados por **config-server**. De esta forma mucho más decentralizado. 
 
 Se debe tener una cuenta en **GitHub** y crea un repositorio. 
 
 <br>
 
-#### 5.1 Crear repositori
+#### 5.1 Crear repositorio
+
+Una vez creado el repositorio se deben subir los archivos de configuración que están dentro de **config** en local. Lo primero es relacionar nuestro git local con el remoto y esto se hace a través del comando **git remote add origin https://github.com/crodrigr/config-server.git**, y posteriormente se hace **git push -u origin master**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/263a5ab3-2156-4a40-a7da-de2973240cdc)
+
+<br>
+
+### 5.1 Push cambios 
+
+Se estable la relación de reposotorio **local** con el **remoto** y se hace la sincronización de subir cambios con **push**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/481b3714-db26-488b-93f6-f06a7e93c70f)
+
+**Repositorio actualizado**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/93bf18a2-7448-4b4f-8713-bdf263ca1e2d)
+
+
 
 
