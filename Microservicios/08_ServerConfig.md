@@ -251,5 +251,21 @@ Para hacer una prueba de esta funcionalidad, se inica todos lo componentes de nu
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/3a923332-6849-4233-8aba-c20efd6f88f7)
 
+<br>
+<br>
+<br>
+
+
+## 5. Github
+
+Es posible tener un repositorio en la nube, como github, en el cual, se va colocar los archivos de configuración que van a ser gestionados por **config-server**. De esta forma de tiene mucho más decentralizado. 
+
+Se debe tener una cuenta en **GitHub** y crea un repositorio. 
+
+<br>
+
+#### 5.1 Crear repositori
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/263a5ab3-2156-4a40-a7da-de2973240cdc)
 
 
