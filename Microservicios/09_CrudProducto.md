@@ -70,3 +70,10 @@ En la implementación de **ItemService** que se realiza en **ItemServicieImpl** 
 
 <br>
 
+### 2.2 Servicio items en controller
+
+En **ItemController** se crean los endpoind que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee5b11b4-a91d-4f4d-bc9f-1c10063db652)
+
+
