@@ -66,7 +66,8 @@ En la interfaz **ItemService** se adiciona los métodos: save, update y delete q
 
 En la implementación de **ItemService** que se realiza en **ItemServicieImpl** se define los métodos: **save**, **update**, y **delete**. Recuerde que en el **ItemServiceImpl** se usa el **RestTemplate** para cosumer los servicios que están en el **servicio-producto**. En otra sección se va realizar con **feing** en **ItemServiceFeing**
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/43784794-a157-495c-ba8b-acc079b1e130)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/d8190777-f091-42ea-a9e4-1c4b410c4d96)
+
 
 <br>
 
