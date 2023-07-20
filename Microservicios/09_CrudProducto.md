@@ -73,7 +73,7 @@ En la implementación de **ItemService** que se realiza en **ItemServicieImpl** 
 
 ### 2.2 Servicio items en controller
 
-En **ItemController** se crean los endpoind que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**. 
+En **ItemController** se crean los endpoin que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**. 
 
 Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** que utilizar **RestTemplate**. Por lo tanto, debe validar que el **@Qualifier("serviceRestTemplate")**. Por otra parte en el **AppConfigure** debe tener activo el **@LoadBalanced**
 
