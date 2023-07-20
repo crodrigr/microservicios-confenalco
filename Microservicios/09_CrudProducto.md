@@ -75,10 +75,13 @@ En la implementación de **ItemService** que se realiza en **ItemServicieImpl** 
 
 En **ItemController** se crean los endpoind que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**. 
 
-Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** que utilizar **RestTemplate**. Por lo tanto, debe validar que el **@Qulifier**
+Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** que utilizar **RestTemplate**. Por lo tanto, debe validar que el **@Qualifier("serviceRestTemplate")**. Por otra parte en el **AppConfigure** debe tener activo el **@LoadBalanced**
+
+<br>
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/8e0386f3-127b-4115-8c69-735ab8726500)
 
+<br>
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee5b11b4-a91d-4f4d-bc9f-1c10063db652)
 
