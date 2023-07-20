@@ -89,7 +89,7 @@ Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** 
 
 ### 2.4 Servicio items en Feing
 
-Para implementar con **feing** se adiciona los métodos: crear, update y eliminar. En el controlador **ItemController** se debe cambiar el Qualifier por **@Qualifier("serviceFeing")**. Por otra parte se debe adiconar los métods en **ItemServiceFeing**
+Para implementar con **feing** se adiciona los métodos: crear, update y eliminar. En el controlador **ProductoClienteRest** se debe cambiar el Qualifier por **@Qualifier("serviceFeing")** en **ItemController**. Por otra parte se debe adiconar los métods en **ItemServiceFeing**
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9feac981-5f65-47ab-a93a-ca3fa80877f6)
 
