@@ -73,7 +73,12 @@ En la implementación de **ItemService** que se realiza en **ItemServicieImpl** 
 
 ### 2.2 Servicio items en controller
 
-En **ItemController** se crean los endpoind que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**
+En **ItemController** se crean los endpoind que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**. 
+
+Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** que utilizar **RestTemplate**. Por lo tanto, debe validar que el **@Qulifier**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/8e0386f3-127b-4115-8c69-735ab8726500)
+
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee5b11b4-a91d-4f4d-bc9f-1c10063db652)
 
