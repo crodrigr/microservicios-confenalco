@@ -85,4 +85,18 @@ Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** 
 
 ![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/ee5b11b4-a91d-4f4d-bc9f-1c10063db652)
 
+<br>
+
+### 2.3 Servicio items en ProductoClienteRest
+
+Para implementar con **feing** se adiciona los métodos: crear, update y eliminar. En el controlador **ItemController** se debe cambiar el Qualifier por **@Qualifier("serviceFeing")**. Por otra parte se debe adiconar los métods en **ItemServiceFeing**
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/9feac981-5f65-47ab-a93a-ca3fa80877f6)
+
+<br>
+
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/b8d60fdd-6724-4877-9aab-c27f15267031)
+
+
+
 
