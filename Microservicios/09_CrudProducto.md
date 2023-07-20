@@ -71,7 +71,7 @@ En la implementación de **ItemService** que se realiza en **ItemServicieImpl** 
 
 <br>
 
-### 2.2 Servicio items en controller
+### 2.3 Servicio items en RestTemplate
 
 En **ItemController** se crean los endpoin que se ha utilizar para los servicios para el crud de produco: **crear**, **update** y **eliminar**. 
 
@@ -87,7 +87,7 @@ Aspectos a tener encuenta. En el **ItemController** va usar **ItemServiceImpl** 
 
 <br>
 
-### 2.3 Servicio items en ProductoClienteRest
+### 2.4 Servicio items en Feing
 
 Para implementar con **feing** se adiciona los métodos: crear, update y eliminar. En el controlador **ItemController** se debe cambiar el Qualifier por **@Qualifier("serviceFeing")**. Por otra parte se debe adiconar los métods en **ItemServiceFeing**
 
