@@ -202,7 +202,8 @@ public class EjemploGatewayFilterFactory extends AbstractGatewayFilterFactory<Ej
 
 Para que el filtro se aplique se debe configurar en el archivo de configuración **application.yml**. Este filtro se va aplicar cuando se invoca al proyecto **servicio-producto**. 
 
-![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/a08166fd-3427-41d4-ba33-264c8eea9ab0)
+![image](https://github.com/crodrigr/microservicios-spring-boot-confenalco/assets/31961588/058261f4-b864-40a5-b50b-7c6291aeadad)
+
 
 <br>
 
